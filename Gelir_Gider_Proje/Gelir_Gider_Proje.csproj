@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7EF34971-0531-4DC8-9EF0-A002B231E3C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Gelir_Gider_Proje</RootNamespace>
+    <AssemblyName>Gelir_Gider_Proje</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminGiris.Designer.cs">
+      <DependentUpon>adminGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnaGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaGiris.Designer.cs">
+      <DependentUpon>AnaGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cari.Designer.cs">
+      <DependentUpon>Cari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gelir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gelir.Designer.cs">
+      <DependentUpon>Gelir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gelir_Gider_ProjeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gelir_Gider_ProjeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gelir_Gider_ProjeDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gelir_Gider_ProjeDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gelir_Gider_ProjeDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gelir_Gider_ProjeDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gelir_Gider_ProjeDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gelir_Gider_ProjeDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gelir_Gider_ProjeDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gelir_Gider_ProjeDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gelir_Gider_ProjeDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gelir_Gider_ProjeDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gelir_Gider_ProjeDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gelir_Gider_ProjeDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gelir_Gider_ProjeDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gelir_Gider_ProjeDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gelir_Gider_ProjeDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gelir_Gider_ProjeDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gelir_Gider_ProjeDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gelir_Gider_ProjeDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gelir_Gider_ProjeDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gelir_Gider_ProjeDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gelir_Gider_ProjeDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gelir_Gider_ProjeDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gider.Designer.cs">
+      <DependentUpon>Gider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapor.Designer.cs">
+      <DependentUpon>Rapor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="adminGiris.resx">
+      <DependentUpon>adminGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnaGiris.resx">
+      <DependentUpon>AnaGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cari.resx">
+      <DependentUpon>Cari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gelir.resx">
+      <DependentUpon>Gelir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gider.resx">
+      <DependentUpon>Gider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Rapor.resx">
+      <DependentUpon>Rapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Gelir_Gider_ProjeDataSet.xsc">
+      <DependentUpon>Gelir_Gider_ProjeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gelir_Gider_ProjeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet.xss">
+      <DependentUpon>Gelir_Gider_ProjeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet1.xsc">
+      <DependentUpon>Gelir_Gider_ProjeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gelir_Gider_ProjeDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet1.xss">
+      <DependentUpon>Gelir_Gider_ProjeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet10.xsc">
+      <DependentUpon>Gelir_Gider_ProjeDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gelir_Gider_ProjeDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet10.xss">
+      <DependentUpon>Gelir_Gider_ProjeDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet11.xsc">
+      <DependentUpon>Gelir_Gider_ProjeDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gelir_Gider_ProjeDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet11.xss">
+      <DependentUpon>Gelir_Gider_ProjeDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet2.xsc">
+      <DependentUpon>Gelir_Gider_ProjeDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gelir_Gider_ProjeDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet2.xss">
+      <DependentUpon>Gelir_Gider_ProjeDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet3.xsc">
+      <DependentUpon>Gelir_Gider_ProjeDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gelir_Gider_ProjeDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet3.xss">
+      <DependentUpon>Gelir_Gider_ProjeDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet4.xsc">
+      <DependentUpon>Gelir_Gider_ProjeDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gelir_Gider_ProjeDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet4.xss">
+      <DependentUpon>Gelir_Gider_ProjeDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet5.xsc">
+      <DependentUpon>Gelir_Gider_ProjeDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gelir_Gider_ProjeDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet5.xss">
+      <DependentUpon>Gelir_Gider_ProjeDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet6.xsc">
+      <DependentUpon>Gelir_Gider_ProjeDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gelir_Gider_ProjeDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet6.xss">
+      <DependentUpon>Gelir_Gider_ProjeDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet7.xsc">
+      <DependentUpon>Gelir_Gider_ProjeDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gelir_Gider_ProjeDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet7.xss">
+      <DependentUpon>Gelir_Gider_ProjeDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet8.xsc">
+      <DependentUpon>Gelir_Gider_ProjeDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gelir_Gider_ProjeDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet8.xss">
+      <DependentUpon>Gelir_Gider_ProjeDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet9.xsc">
+      <DependentUpon>Gelir_Gider_ProjeDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Gelir_Gider_ProjeDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gelir_Gider_ProjeDataSet9.xss">
+      <DependentUpon>Gelir_Gider_ProjeDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
